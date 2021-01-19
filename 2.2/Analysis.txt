@@ -1,0 +1,9 @@
+The time complexity of the solution for 2.2 is O(n).
+
+This time complexity can be met the fastest solution with the following solution/steps:
+1. Maintain 2 types of pointers (Main pointer and reference pointer)
+2. Initialize both pointers to head
+3. Move the reference pointer to n nodes from head
+4. Move both pointers one by one until the reference pointer reaches the end
+5. Have the main pointer point to the nth node from the end.
+6. Have the main pointer return to its original spot.
